@@ -69,3 +69,9 @@ header {
 .chart .card-content div:not(:last-child) {
     border-bottom: 1px solid lightgray;
 }
+@media screen and (max-width: 1290px) {
+    .sidebar ul li a:last-child,
+    .sidebar-bt a:last-child {
+        display: none;
+    }
+}
