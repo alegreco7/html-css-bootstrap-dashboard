@@ -44,3 +44,20 @@ header {
     background-color: #1a73e8;
     color: white;
 }
+.mc-card {
+    border-radius: 5px;
+}
+.mc-table {
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+.mc-table thead {
+    border-bottom-color: black;
+}
+.mc-table td {
+    white-space: nowrap;
+}
+.mc-table .t-col-class {
+    width: 100%;
+}
