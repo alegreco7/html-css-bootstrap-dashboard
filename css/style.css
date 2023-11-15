@@ -61,3 +61,11 @@ header {
 .mc-table .t-col-class {
     width: 100%;
 }
+.todo .card-content, .chart .card-content {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.todo .card-content div:not(:last-child),
+.chart .card-content div:not(:last-child) {
+    border-bottom: 1px solid lightgray;
+}
