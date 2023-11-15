@@ -22,3 +22,14 @@ header {
     text-decoration: none;
     color: white;
 }
+.banner .banner-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #00000037;
+    border-radius: 1rem;
+    padding: 0.25rem 0.5rem ;
+}
+
+.banner .banner-btn:hover {
+    background-color: #0000009d;
+}
